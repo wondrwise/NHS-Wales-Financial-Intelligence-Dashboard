@@ -79,15 +79,13 @@ The core analytical inputs are:
 
 ### Current file inventory from the Drive materials
 
-> Fill in the remaining `TODO` metadata directly from Google Drive before publishing the repository.
 
 | Path | Type | Size | Last modified |
 |---|---|---:|---|
-| `NHS/data lib/` | Folder | TODO | TODO |
-| `NHS/Presentation/NHS Wales Financial Dashboard.pptx` | PowerPoint | TODO | TODO |
-| `NHS/Code/V1/` | Folder | TODO | TODO |
-| `NHS/Code/V2/` | Folder | TODO | TODO |
-| `NHS/.../NHS Wales financial dashboard.pbix` | Power BI file | TODO | TODO |
+| `/data/` | Folder | 1.67 MB | 2026-06-24 |
+| `/Presentation/NHS Wales Financial Dashboard.pptx` | PowerPoint | 52.0 KB | 2026-06-24 |
+| `/notebooks/` | Folder | 136 KB | 2026-06-24 |
+| `NHS/.../NHS Wales financial dashboard.pbix` | Power BI file | 324 KB | 2026-06-24 |
 | `README.md` | Markdown | 5.4 KB | 2026-06-24 |
 | `a NHS  BI problem.docx` | Word document | 28.7 KB | 2026-06-24 |
 | `nhs_expenditure_analysis.pdf` | PDF | 27.1 KB | 2026-06-24 |
