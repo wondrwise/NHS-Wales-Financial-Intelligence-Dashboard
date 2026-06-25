@@ -49,21 +49,6 @@ This project addresses five stakeholder-style questions:
 - Deliver a Power BI dashboard suitable for stakeholder review
 
 
-## Why this project matters
-
-Healthcare finance projects are often presented as disconnected notebooks or file dumps. This repository is structured as a complete **finance BI case study**:
-
-**Question → Data → Validation → Analysis → Forecasting → Dashboard → Decision support**
-
-That makes it suitable for roles spanning:
-
-- Data Analyst
-- BI Analyst
-- Public Sector / NHS Analyst
-- Finance Analyst
-- Junior Data Scientist
-
-
 ## Datasets
 
 The core analytical inputs are:
