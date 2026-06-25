@@ -2,7 +2,7 @@
 
 An end-to-end healthcare finance analytics case study combining Python-based data cleaning, statistical analysis, forecasting, and Power BI dashboard development to examine how NHS Wales spending changed over time, how funding priorities shifted, and where financial pressure points emerged.
 
-> **Status:** public repository  
+> **Status:** v1 complete  
 > **Author:** Edward Mbuthia  
 > **Licence:** L001
 
