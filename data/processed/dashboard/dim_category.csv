@@ -1,0 +1,44 @@
+Category breakdown,ServiceArea,HasBreakdown,CategoryType,NotesFlag
+total,All,Yes,Total,0
+infectious_diseases_total,Infectious,No,Total,0
+cancers_tumours_total,Cancer,No,Total,0
+blood_disorders_total,Blood,No,Total,0
+endocrine_nutritional_metabolic_problems_total,Metabolic,Yes,Total,0
+diabetes,Metabolic,No,Subcategory,0
+other_endocrine_nutritional_and_metabolic_problems,Metabolic,No,Subcategory,0
+mental_health_problems_total,Mental health,Yes,Total,0
+general_mental_illness,Mental health,No,Subcategory,0
+elderly_mental_illness,Mental health,No,Subcategory,0
+child_adolescent_mental_health_services,Mental health,No,Subcategory,0
+other_mental_health_problems,Mental health,No,Subcategory,0
+learning_disability_problems_total,Learning disability,No,Total,0
+neurological_system_problems_total,Neurological,No,Total,0
+eyevision_problems_total,Eye vision,No,Total,0
+hearing_problems_total,Hearing,No,Total,0
+circulation_problems_total,Circulatory,Yes,Total,0
+coronary_heart_disease,Circulatory,No,Subcategory,0
+cerebrovascular_disease,Circulatory,No,Subcategory,0
+other_problems_of_circulation,Circulatory,No,Subcategory,1
+respiratory_problems_total,Respiratory,No,Total,0
+dental_problems_total,Dental,No,Total,0
+gastro_intestinal_problems_total,Intestinal,No,Total,0
+skin_problems_total,Skin,No,Total,0
+musculo_skeletal_system_problems_exc_trauma_total,Musculo skeletal,No,Total,0
+trauma_injuries_inc_burns_total,Trauma injuries,No,Total,0
+genito_urinary_system_disorders_exc_infertility_total,Genito urinary,Yes,Total,0
+genital_tract_problems,Genito urinary,No,Subcategory,0
+renal_problems,Genito urinary,No,Subcategory,0
+chronic_renal_failure,Genito urinary,No,Subcategory,0
+sexually_transmitted_infections,Genito urinary,No,Subcategory,0
+other_problems_of_the_genito_urinary_system,Genito urinary,No,Subcategory,0
+maternity_reproductive_health_total,Reproductive,No,Total,0
+neonates_total,Neonatal,No,Total,0
+poisoning_total,Poisons,No,Total,0
+healthy_individuals_includes_screening_total,Screening,No,Total,0
+social_care_needs_total,Social care,No,Total,0
+other_total,Other,Yes,Total,0
+general_medical_services,Other,No,Subcategory,0
+open_access,Other,No,Subcategory,0
+continuing_care,Other,No,Subcategory,0
+other_phw_functions,Other,No,Subcategory,0
+other_expenditure,Other,No,Subcategory,0
