@@ -1,8 +1,3 @@
-## Why this document exists
-
-Strong portfolio projects are more credible when they explain what the analysis can and cannot support. This project is analytically useful, but it should not be overstated.
-
-
 ## Data limitations
 
 ### Aggregated public finance data
