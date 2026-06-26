@@ -102,7 +102,6 @@ The core analytical inputs are:
 
 ## Repository structure
 
-```text
 
 nhs-wales-financial-intelligence-dashboard/
 ├── README.md
@@ -288,6 +287,5 @@ Cardiff University
 
 GitHub: https://github.com/wondrwise
 
----
 
 Licensed under the MIT License.
