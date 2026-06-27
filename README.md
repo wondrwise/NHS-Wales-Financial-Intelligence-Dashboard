@@ -102,6 +102,7 @@ The core analytical inputs are:
 
 ## Repository structure
 
+```text
 
 nhs-wales-financial-intelligence-dashboard/
 ├── README.md
@@ -140,6 +141,7 @@ nhs-wales-financial-intelligence-dashboard/
 │   ├── future_improvements.md
 │   └── data_dictionary.md
 
+```
 
 Methodology overview
 The project followed a structured BI lifecycle rather than an ad hoc plotting workflow.
