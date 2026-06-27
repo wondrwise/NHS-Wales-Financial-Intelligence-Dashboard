@@ -143,13 +143,17 @@ nhs-wales-financial-intelligence-dashboard/
 
 ```
 
-Methodology overview
+## Methodology overview
+
 The project followed a structured BI lifecycle rather than an ad hoc plotting workflow.
+
 Define the reporting grain
 A common reporting grain was defined as:
 HealthBoard × Category Breakdown × FinancialYear × MetricType
 This allowed the three core financial perspectives to be consolidated into one reporting layer.
-Build dimension tables
+
+### Build dimension tables
+
 Three supporting dimensions were designed:
 •	DimCategory
 •	DimFinancialYear
@@ -157,7 +161,8 @@ Three supporting dimensions were designed:
 
 These dimensions reduced ambiguity, improved sorting, enabled benchmarking, and supported safe hierarchy handling.
 
-Consolidate the source datasets
+### Consolidate the source datasets
+
 The financial datasets were reshaped from wide to long form and merged into a unified fact table with fields such as:
 •	HealthBoard
 •	FinancialYear
@@ -165,7 +170,8 @@ The financial datasets were reshaped from wide to long form and merged into a un
 •	MetricType
 •	Value
 
-Validate before analysing
+### Validate before analyzing
+
 Validation checks included:
 •	category completeness
 •	year completeness
@@ -177,40 +183,48 @@ Validation checks included:
 •	hierarchy safety checks
 •	reconciliation of related measures
 
-Analyse and model
+### Analyze and model
+
 The analysis then moved through:
 1.	trend analysis
 2.	pre/post-COVID comparison
 3.	category-level comparison
 4.	volatility checks
 5.	correlation analysis
-6.	forecasting
-7.	dashboard dataset preparation
+6.	Forecasting
+7.	Dashboard dataset preparation
 
-Analytical assumptions
+### Analytical assumptions
+
 •	Executive reporting uses total categories only
 •	Subcategories are retained for diagnostic analysis, not for headline totals
 •	Financial year ordering is controlled explicitly via a sortable field such as FY_Order
 •	For reproducibility in this repository, pre-COVID is defined as up to 2019-20 and post-COVID as 2020-21 onward
 
-Key findings
-Spending trends
+## Key findings
+
+### Spending trends
+
 •	NHS spending increased steadily over the long run
 •	A prominent step change occurred in 2020-21
 •	Spending remained elevated after the acute pandemic shock
 
-Budget allocation
-•	Infectious Diseases was the most notable budget gainer during the COVID-era reallocation
-•	Musculo Skeletal System Problems showed a statistically significant decline in budget share in the documented analysis
+## Budget allocation
 
-Per-head analysis
+•	Infectious Diseases was the most notable budget gainer during the COVID-era reallocation
+•	Musculoskeletal System Problems showed a statistically significant decline in budget share in the documented analysis
+
+### Per-head analysis
+
 •	Per-head expenditure broadly tracked total expenditure, suggesting that growth in spend was not purely a population-size artefact
 
-BI insight
-•	Absolute expenditure alone was not sufficient
-•	Normalising by population and examining allocation share were both necessary to understand equity and reprioritization
+### BI insight
 
-Statistical approach
+•	Absolute expenditure alone was not sufficient
+•	Normalizing by population and examining allocation share were both necessary to understand equity and reprioritization
+
+### Statistical approach
+
 The repository explains and uses:
 •	Welch’s t-test for pre/post comparison where equal variance assumptions may not hold
 •	Levene’s test for variance comparison
@@ -219,28 +233,31 @@ The repository explains and uses:
 •	Ljung-Box test for residual autocorrelation checks
 •	Forecast comparison using SARIMA / SARIMAX and Prophet
 
-Forecasting approach
+### Forecasting approach
+
 Two complementary forecasting families were used or prepared for use:
 SARIMA / SARIMAX
-Used for structured time-series modelling where trend and seasonality can be represented explicitly and diagnostics can be checked carefully.
+Used for structured time-series modeling where trend and seasonality can be represented explicitly, and diagnostics can be checked carefully.
 Prophet
-Used as a flexible benchmark model, particularly helpful when trend changepoints or shock handling are important.
+Used as a flexible benchmark model, particularly helpful when trend change points or shock handling are important.
 COVID handling
 The pandemic period is treated as a structural shock rather than “business as usual”. Forecasting work should therefore be presented with explicit sensitivity commentary, and where possible the COVID period should be flagged, annotated, or tested separately rather than folded into the series without discussion.
 
 
-How to open the BI artefact
+### How to open the BI artefact
 Open the file below in Power BI Desktop:
 dashboard/NHS_Wales_Financial_Dashboard.pbix
 
-Limitations
+## Limitations
+
 •	Public, aggregated financial data cannot by itself explain outcomes, demand, or patient-level need
 •	Pandemic-era shocks can distort simple trend extrapolation
 •	Some categories include both totals and detailed breakdowns; careless aggregation can double count
 •	Expenditure growth does not automatically imply inefficiency or poor targeting
 •	A polished public repository requires a final pass on metadata, filenames, and export paths from the original Drive folder
 
-Future work
+## Future work
+
 •	Add automated data ingestion where licensing allows
 •	Integrate operational indicators such as admissions, waiting times, or workforce pressure
 •	Publish a cleaned, dashboard-ready dataset
@@ -248,7 +265,7 @@ Future work
 •	Add formal forecast backtesting and model comparison
 •	Publish an optional Power BI Service dashboard if governance allows
 
-Author
+### Author
 •	GitHub: https://github.com/wondrwise?tab=repositories
 •	LinkedIn: www.linkedin.com/in/edward-mbuthia-331813187
 
